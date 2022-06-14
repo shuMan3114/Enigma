@@ -1,0 +1,147 @@
+body{
+    min-height:95vh;
+    min-width:95vw;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(226, 43%, 10%);
+    color:  #F5F5FF;
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F5F5FF;
+}
+
+.main_container{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 20% auto auto auto;
+    gap: 20px;
+}
+
+.grid_item{
+    border-radius : 20px;
+    padding-top: 30px;
+    box-shadow: 0 8px 16px 0 rgba(19, 16, 16, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:  hsl(235, 46%, 20%);
+    font-size: 18px;
+}
+
+.container_1{
+    padding: 0px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.category{
+    background-color:  hsl(246, 80%, 60%);
+    font-weight: 300;
+    height: 65%;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.category > p {
+    margin-bottom: 5px;
+}
+
+.category > h2 {
+    margin-top: 5px;
+}
+
+.buttons{
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 18px;
+}
+
+.buttons > a {
+    margin: 20px;
+    display: block;
+}
+
+
+.container_2{
+    background-color:  hsl(15, 100%, 70%);
+    /* opacity: 0.8; */
+}
+.container_3{
+    background-color:   hsl(195, 74%, 62%);
+    /* opacity: 0.8; */
+}
+.container_4{
+    background-color:  hsl(348, 100%, 68%);
+    /* opacity: 0.8; */
+}
+.container_5{
+    background-color:  hsl(145, 58%, 55%);
+    /* opacity: 0.8; */
+}
+.container_6{
+    background-color:  hsl(264, 64%, 52%);
+    /* opacity: 0.8; */
+}
+.container_7{
+    background-color:  hsl(43, 84%, 65%);
+    /* opacity: 0.8; */
+}
+
+
+
+/* background-image: linear-gradient( #FF572f, #F02DA2);#F5F5FF */
+
+.card_info{
+    min-height: 200px;
+    /* width: 500px; */
+    padding: 20px;
+    border-radius: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color:  hsl(235, 46%, 20%);
+}
+
+
+/* 1150*/
+@media  screen and (max-width: 1150px){
+    .main_container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .container_1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .category > p {
+        visibility: hidden;
+        height : 20
+    }
+
+}
+
+@media screen  {
+    
+}
