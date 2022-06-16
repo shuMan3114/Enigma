@@ -81,42 +81,45 @@ a{
 
 
 .container_2{
-    background-color:  hsl(15, 100%, 70%);
+    background-color:  #FFADAD;
     /* opacity: 0.8; */
 }
 .container_3{
-    background-color:   hsl(195, 74%, 62%);
+    background-color:   #FFD6A5;
     /* opacity: 0.8; */
 }
 .container_4{
-    background-color:  hsl(348, 100%, 68%);
+    background-color: #FDFFB6;
     /* opacity: 0.8; */
 }
 .container_5{
-    background-color:  hsl(145, 58%, 55%);
+    background-color:  #CAFFBF;
     /* opacity: 0.8; */
 }
 .container_6{
-    background-color:  hsl(264, 64%, 52%);
+    background-color:  #9BF6FF;
     /* opacity: 0.8; */
 }
 .container_7{
-    background-color:  hsl(43, 84%, 65%);
+    background-color: #A0C4FF;
     /* opacity: 0.8; */
 }
 .container_8{
-    background-color:  RGB(51,190,183);
+    background-color:  #BDB2FF;
     /* opacity: 0.8; */
 }
 .container_9{
-    background-color:  RGB(238,101,121);
+    background-color:  #FFC6FF;
     /* opacity: 0.8; */
 }
 .container_10{
-    background-color:  #F02DA2;
+    background-color:  #A1FCDF;
     /* opacity: 0.8; */
 }
-
+.container_11{
+    background-color:  #023E8A;
+    /* opacity: 0.8; */
+}
 
 
 /* background-image: linear-gradient( #FF572f, #F02DA2);#F5F5FF */
