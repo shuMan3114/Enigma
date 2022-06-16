@@ -5,8 +5,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  hsl(226, 43%, 10%);
-    color:  #F5F5FF;
+    background-color:  RGB(213,213,213);
+    color:   white;
     font-weight: 300;
 }
 
@@ -30,7 +30,7 @@ a{
 .main_container{
     padding: 50px;
     display: grid;
-    grid-template-columns: 20% auto auto auto;
+    grid-template-columns: 25% auto auto auto;
     gap: 20px;
 }
 
@@ -45,7 +45,7 @@ a{
 .container_1{
     padding: 0px;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
 }
 
 .category{
@@ -104,6 +104,18 @@ a{
     background-color:  hsl(43, 84%, 65%);
     /* opacity: 0.8; */
 }
+.container_8{
+    background-color:  RGB(51,190,183);
+    /* opacity: 0.8; */
+}
+.container_9{
+    background-color:  RGB(238,101,121);
+    /* opacity: 0.8; */
+}
+.container_10{
+    background-color:  #F02DA2;
+    /* opacity: 0.8; */
+}
 
 
 
@@ -140,8 +152,38 @@ a{
         height : 20
     }
 
+    .buttons{
+        text-align: center;
+    }
+
+    .buttons > a{
+        display:inline;
+    }
+
+    .category{
+        height: 50%;
+    }
+
 }
 
-@media screen  {
-    
+@media screen and (max-width: 550px) {
+    .main_container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid_item{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
+
+/* RGB(224,224,224) */
+
+
+
+/* 
+
+
+
+
+*/
