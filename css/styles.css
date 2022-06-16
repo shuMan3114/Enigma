@@ -162,6 +162,7 @@ a{
 
     .category{
         height: 50%;
+        text-align: center;
     }
 
 }
@@ -174,9 +175,6 @@ a{
     .grid_item{
         grid-column-start: 1;
         grid-column-end: 2;
-    }
-    .container_1{
-        text-align: center;
     }
 }
 
