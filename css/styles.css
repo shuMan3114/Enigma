@@ -175,6 +175,9 @@ a{
         grid-column-start: 1;
         grid-column-end: 2;
     }
+    .container_1{
+        text-align : center;
+    }
 }
 
 /* RGB(224,224,224) */
