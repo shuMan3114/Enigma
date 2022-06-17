@@ -46,3 +46,10 @@ section{
     font-size: 18px;
 }
 
+@media  screen and (max-width: 1150px){
+    .card_container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+    }
+}
