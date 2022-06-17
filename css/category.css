@@ -6,15 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color:  #BDEDFF;
-    color:   white;
-    font-weight: 300;
-}
-
-h2{
-    font-weight: 300;
-    font-size: 35px;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    color: white;
 }
 
 p{
@@ -136,8 +128,7 @@ a{
 /* background-image: linear-gradient( #FF572f, #F02DA2);#F5F5FF */
 
 .card_info{
-    min-height: 200px;
-    /* width: 500px; */
+    height: 100%;
     padding: 20px;
     border-radius: 20px;
     border-top-left-radius: 40px;
@@ -162,9 +153,13 @@ a{
         grid-column-end: 3;
     }
 
+    .category >h2{
+        margin-bottom: 40px;
+    }
+
     .category > p {
         visibility: hidden;
-        height : 20
+        height : 20;
     }
 
     .buttons{

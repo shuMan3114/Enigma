@@ -1,0 +1,48 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color:  #F5F5FF;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    min-height:98vh;
+    min-width: 95vw;
+}
+
+.tagline_part{
+    padding: 100px;
+    min-height: 85vh;
+    vertical-align: middle;
+}
+
+.big-heading{
+    font-size: 60px;
+}
+
+.card_container{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 35px;
+}
+
+.grid_item{
+    background-color: white;
+    padding: 30px;
+    position: relative;
+}
+
+.card_icon{
+    position: absolute;
+    top: -8%;
+    left: -8%;
+}
+
+.event_redirect{
+    width: 100%;
+    text-decoration: none;
+    color: #212529;
+    font-size: 18px;
+}
+
