@@ -54,9 +54,9 @@ section{
     }
 }
 
-@media  screen and (max-width: 550px){
+@media  screen and (max-width: 650px){
     .card_container{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
     }
 }
