@@ -53,3 +53,10 @@ section{
         grid-template-rows: auto auto auto;
     }
 }
+
+@media  screen and (max-width: 550px){
+    .card_container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
