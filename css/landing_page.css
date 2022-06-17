@@ -57,6 +57,8 @@ section{
 @media  screen and (max-width: 650px){
     .card_container{
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+
     }
 }
