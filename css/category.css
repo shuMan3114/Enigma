@@ -61,6 +61,7 @@ a{
     border-bottom-left-radius: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .category > p {
@@ -69,10 +70,6 @@ a{
 
 .category > h2 {
     margin-top: 5px;
-}
-
-.logo{
-    height: 70%;
 }
 
 .buttons{
