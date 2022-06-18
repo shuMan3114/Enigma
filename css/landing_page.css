@@ -10,11 +10,19 @@ section{
     min-width: 95vw;
 }
 
+.tagline_part, .img{
+    min-height: 85vh;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .tagline_part{
     padding: 100px;
-    min-height: 85vh;
-    vertical-align: middle;
 }
+
 
 .big-heading{
     font-size: 60px;
@@ -53,6 +61,11 @@ section{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
+    }
+
+    .tagline_part{
+        height: fit-content;
+        padding-top: 10px;
     }
 }
 

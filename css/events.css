@@ -50,3 +50,45 @@ body{
 .event_10{
     background-color: #9ADCFF;
 }
+.houses{
+    background-color: #B088F9;
+}
+
+.houses > .event-div{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #EEEEEE;
+}
+
+.house_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_div{
+    margin-top: 20px;
+}
+
+.house_img{
+    height: 85%;
+    width: 85%;
+    padding: 20px;
+    border:solid;
+    border-width: 5px;
+}
+
+.red{
+    border-color: #D72323;
+}
+
+.yellow{
+    border-color: #F6F54D;
+}
+
+.green{
+    border-color: #5FD068;
+}
