@@ -10,6 +10,16 @@ section{
     min-width: 95vw;
 }
 
+#info{
+    padding: 0 100px 0 100px;
+    font-size: 20px;
+}
+
+.school_logo{
+    height: 120px;
+    width: 120px;
+}
+
 .tagline_part, .img{
     min-height: 85vh;
     display: flex;
@@ -17,10 +27,6 @@ section{
     flex-direction: column;
     justify-content: center;
 
-}
-
-.tagline_part{
-    padding: 100px;
 }
 
 
