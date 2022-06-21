@@ -92,3 +92,11 @@ body{
 .green{
     border-color: #5FD068;
 }
+
+
+@media screen and(max-width : 750px){
+    .event-div{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
