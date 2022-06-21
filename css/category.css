@@ -20,10 +20,11 @@ a{
 }
 
 .main_container{
-    padding: 50px;
+    margin : 50px 0 0 50px;
+    padding-left : 20px;
     display: grid;
-    grid-template-columns: 25% auto auto auto;
-    gap: 20px;
+    grid-template-columns: 22.5% 25% 22.5% 22.5% ; 
+    gap: 15px;
 }
 
 .grid_item{
@@ -132,7 +133,7 @@ a{
 
 .card_info{
     height: 100%;
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;

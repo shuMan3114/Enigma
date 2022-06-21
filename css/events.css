@@ -4,6 +4,8 @@ body{
     justify-content: center;
     min-width: 95vw;
     min-height: 95vh;
+    background: url("/images/background_event.svg");
+    background-size: contain;
 }
 
 .event-div {

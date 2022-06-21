@@ -31,7 +31,7 @@ section{
 
 
 .big-heading{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .card_container{
@@ -67,6 +67,10 @@ section{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
+    }
+
+    #info{
+        padding: 20px;
     }
 
     .tagline_part{
