@@ -15,40 +15,90 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.event-img {
-    width: 100%;
+.img_div{
     height: 100%;
+    width: 100%;
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .event_1{
     background-color: #FFADAD;
 }
+.event_1_img_div{
+    /* background-size: contain; */
+    background-image: url("../images/fashion.png");
+}
+
+
 .event_2{
     background-color: #FFD6A5;
 }
+.event_2_img_div{
+    background-image: url("../images/Manic_minute.jpg");
+}
+
+
 .event_3{
     background-color: #FDFFB6;
 }
+.event_3_img_div{
+    background-size: contain;
+    background-image: url("../images/art_event.png");
+}
+
+
 .event_4{
     background-color: #CAFFBF;
 }
+.event_4_img_div{
+    background-image: url("../images/rhetorica.jpg");
+}
+
+
 .event_5{
     background-color: #9BF6FF;
 }
+.event_5_img_div{
+    background-image: url("../images/Manic_minute.jpg");
+}
+
+
 .event_6{
     background-color: #A0C4FF;
 }
+.event_6_img_div{
+    background-image: url("../images/Manic_minute.jpg");
+}
+
+
 .event_7{
     background-color: #BDB2FF;
 }
+.event_7_img_div{
+    background-image: url("../images/shutterbug.png");
+}
+
+
+
 .event_8{
     background-color: #FFC6FF;
 }
+.event_8_img_div{
+    background-image: url("../images/ipl_auction.jpg");
+}
+
+
 .event_9{
     background-color: #A1FCDF;
 }
+.event_9_img_div{
+    background-image: url("../images/market_raj.jpg");
+}
+
+
 .event_10{
     background-color: #9ADCFF;
 }
@@ -95,10 +145,15 @@ body{
     border-color: #5FD068;
 }
 
+@media screen and (max-width : 1000px){
+    .btn_class{
+        text-align: center;
+    }
+}
 
-@media screen and(max-width : 750px){
+@media screen and (max-width : 750px){
     .event-div{
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 15%;
+        margin-bottom: 15%;
     }
 }

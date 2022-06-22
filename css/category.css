@@ -20,11 +20,11 @@ a{
 }
 
 .main_container{
-    margin : 50px 0 0 50px;
+    margin-top : 30px;
+    margin-bottom : 30px;
     width : 95%;
-    padding-left : 20px;
     display: grid;
-    grid-template-columns:  20% auto auto auto; 
+    grid-template-columns:  21% 25% 25% 25%; 
     gap: 15px;
 }
 
@@ -141,6 +141,10 @@ a{
     background-color:  hsl(235, 46%, 20%);
 }
 
+.card_info > p{
+    opacity : 0.7;
+}
+
 
 
 /* 1150*/
@@ -184,6 +188,7 @@ a{
     .cat-B{
         grid-column-start: 1;
         grid-column-end: 3;
+        text-align: center;
     }
 
 }
@@ -192,10 +197,14 @@ a{
     .main_container{
         display: grid;
         grid-template-columns: auto;
+        text-align: left;
     }
     .grid_item{
         grid-column-start: 1;
         grid-column-end: 2;
+    }
+    .cat-B{
+        text-align: left;
     }
 }
 
