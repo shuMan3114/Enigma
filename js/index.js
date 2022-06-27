@@ -9,7 +9,6 @@ function redirect(){
     const cat_list = ["category_A", "category_B", "category_C"];
     var previous_link = document.referrer;
     var prev_cat = previous_link.slice(-15,-5);
-    alert(prev_cat)
     switch (prev_cat) {
         case cat_list[0]:
             document.location.href = document.referrer;
