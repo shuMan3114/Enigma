@@ -9,24 +9,21 @@ function redirect(){
     const cat_list = ["category_A", "category_B", "category_C"];
     var previous_link = document.referrer;
     var prev_cat = previous_link.slice(-15,-5);
-    cat_list.forEach(category => {
-        switch (prev_cat) {
-            case cat_list[0]:
-                document.location.href = document.referrer;
-                break;
-            case cat_list[1]:
-                document.location.href = document.referrer;
-                break;
-            case cat_list[2]:
-                document.location.href = document.referrer;
-                break;
-            default:
-                document.location.href = "https://nhvps.github.io/enigma2k22/";
-                break;
-        }
-    });
-
-    document.location.href = document.referrer;
+    alert(prev_cat)
+    switch (prev_cat) {
+        case cat_list[0]:
+            document.location.href = document.referrer;
+            break;
+        case cat_list[1]:
+            document.location.href = document.referrer;
+            break;
+        case cat_list[2]:
+            document.location.href = document.referrer;
+            break;
+        default:
+            window.location.href="http://nhvps.github.io/enigma2k22/";
+            break;
+    }
 }
 
 $(".back_btn").on("click", redirect);
