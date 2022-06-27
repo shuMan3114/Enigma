@@ -68,6 +68,22 @@ section{
     font-size: 18px;
 }
 
+
+#contact_us{
+    min-height: auto;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cu{
+    font-weight: 300;
+    margin: 30px;
+}
+
+
 @media  screen and (max-width: 1150px){
     .card_container{
         display: grid;
