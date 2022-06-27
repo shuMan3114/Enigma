@@ -21,7 +21,7 @@ function redirect(){
                 document.location.href = document.referrer;
                 break;
             default:
-                document.location.href = "https://hunkypotion3114.github.io/Enigma/index.html#event_cards";
+                document.location.href = "https://nhvps.github.io/enigma2k22/";
                 break;
         }
     });
