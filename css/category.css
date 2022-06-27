@@ -198,7 +198,7 @@ a{
         display: grid;
         grid-template-columns: auto;
         text-align: left;
-        margin-left=0;
+        margin-left: 0;
     }
     .grid_item{
         grid-column-start: 1;

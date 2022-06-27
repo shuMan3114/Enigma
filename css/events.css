@@ -40,7 +40,7 @@ body{
 }
 .event_2_img_div{
     background-position: center;
-    background-image: url("../images/flair.jpg");
+    background-image: url("../images/flair.png");
 }
 
 
@@ -50,7 +50,7 @@ body{
 .event_3_img_div{
     /* background-size: contain; */
     background-position: center;
-    background-image: url("../images/art_event.png");
+    background-image: url("../images/art_event.jpg");
 }
 
 
@@ -78,7 +78,7 @@ body{
 }
 .event_6_img_div{
     background-position: center;
-    background-image: url("../images/Manic_minute.jpg");
+    background-image: url("../images/manic_minute.png");
 }
 
 
@@ -97,7 +97,7 @@ body{
 }
 .event_8_img_div{
     background-position: center;
-    background-image: url("../images/ipl_auction.jpg");
+    background-image: url("../images/ipl_auction.png");
 }
 
 
@@ -156,9 +156,43 @@ body{
     border-color: #5FD068;
 }
 
+
+hr{
+
+    height: 0px;
+    border: dotted;
+    border-bottom: 0px;
+    border-width: 8px;
+    width: 100%;
+    border-color:  #9ADCFF;
+    background-color: white;
+
+}
+
+.team_img{
+    vertical-align: middle;
+}
+
+.event_img{
+    height: 240px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.vid_team{
+    height: 250px;
+}
+
+.eh_img{
+    height: 300px;
+}
+
 @media screen and (max-width : 1000px){
     .btn_class{
         text-align: center;
+    }
+    .event_img{
+        width: 100%;
     }
 }
 

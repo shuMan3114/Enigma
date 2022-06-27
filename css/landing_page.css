@@ -15,17 +15,23 @@ section{
     font-size: 20px;
 }
 
+.btn_class{
+    text-align: center;
+}
+
 .school_logo{
     height: 120px;
     width: 120px;
 }
 
-.tagline_part, .img{
-    min-height: 85vh;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    justify-content: center;
+.img{
+    height: 55vh;
+    width: 95vw;
+    background-image: url("../images/enigma_final_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
 
 }
 
@@ -86,8 +92,5 @@ section{
         grid-template-rows: auto auto auto auto auto auto;
 
     }
-}
-
-@media (-webkit-device-pixel-ratio : 1.50) {
-       
+    
 }
