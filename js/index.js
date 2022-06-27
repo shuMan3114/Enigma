@@ -21,12 +21,10 @@ function redirect(){
                 document.location.href = document.referrer;
                 break;
             default:
-                document.location.href = "https://nhvps.github.io/enigma2k22/";
+                window.assign("https://nhvps.github.io/enigma2k22");
                 break;
         }
     });
-
-    document.location.href = document.referrer;
 }
 
 $(".back_btn").on("click", redirect);
