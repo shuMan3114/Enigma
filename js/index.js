@@ -1,8 +1,16 @@
 var width = $(".img_div").width();
 
-var mq = window.matchMedia( "(max-width: 992px)" );
+var mq = window.matchMedia( "(max-width: 1050px)" );
 if(mq.matches){
     $(".img_div").css("height",width);
+}
+
+
+var width = $(".vid").width();
+
+var mq = window.matchMedia("(max-width: 850px)");
+if (mq.matches) {
+    $(".vid").css("height", width);
 }
 
 function redirect(){
