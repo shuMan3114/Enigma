@@ -13,13 +13,6 @@ if (mvq.matches) {
     $(".vid").css("height", width);
 }
 
-var mql = window.matchMedia("(max-width: 500px)");
-if (mql.matches) {
-    $(".vid").css("width", "100%");
-    var width = $(".vid").width();
-    $(".vid").css("height",width);
-}
-
 function redirect(){
     const cat_list = ["category_A", "category_B", "category_C"];
     var previous_link = document.referrer;
