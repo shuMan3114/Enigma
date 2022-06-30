@@ -108,5 +108,9 @@ section{
         grid-template-rows: auto auto auto auto auto auto;
 
     }
+
+.cu{
+    word-wrap : normal;
+}
     
 }
