@@ -8,9 +8,16 @@ if(mq.matches){
 
 var width = $(".vid").width();
 
-var mq = window.matchMedia("(max-width: 850px)");
-if (mq.matches) {
+var mqv = window.matchMedia("(max-width: 850px)");
+if (mvq.matches) {
     $(".vid").css("height", width);
+}
+
+var mql = window.matchMedia("(max-width: 500px)");
+if (mql.matches) {
+    $(".vid").css("width", "100%");
+    var width = $(".vid").width();
+    $(".vid").css("height",width);
 }
 
 function redirect(){
